@@ -16,9 +16,7 @@ const RepoContainer = () => {
         const fetchGithubData = async () => {
             try {
                 let { data } = await axios.get(API);
-                console.log(repos);
                 setRepos(data);
-                // console.log(data);
             } catch (error) {
                 setErrorMessage('There was an error fetching data!');
             }
