@@ -1,0 +1,49 @@
+.allRepos {
+  position: absolute;
+  top: 20vh;
+  left: 25vw;
+  width: 65vw;
+}
+
+.repo {
+  border-top: 1px solid rgba(199, 198, 198, 0.74);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.repo h2 {
+  color: #0366d6;
+}
+
+.repo h2:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgba(199, 198, 198, 0.74);
+  left: 5vw;
+  top: 16vh;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  position: absolute;
+  left: 10vw;
+  top: 48vh;
+}
+
+.error {
+  color: rgb(94, 23, 23);
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}

@@ -1,9 +1,13 @@
 import React from 'react';
+import { RepoDetailContainer } from '../../components';
+
+
 
 const repoDetails = () => {
     return (
         <div>
-            <h1>RepoDetails</h1> 
+            <h1>Repo Details</h1>
+            <RepoDetailContainer />
         </div>
     );
 }
